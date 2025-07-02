@@ -1,0 +1,40 @@
+# Scientific Computing - Project 1: Random Walk and Numerical Integration
+
+This sub-repository contains the materials for "Paper 1" of the Scientific Computing course at the University of Milan, a project that contributed to our final grade of **30/30 with honors (cum laude)**. This work was completed in collaboration with Chiara Galimberti.
+
+## Project Overview
+
+This paper explores two distinct yet interconnected areas of numerical methods: stochastic processes through a 2D Random Walk simulation and the numerical approximation of integrals.
+
+### Exercise 1: 2D Random Walk Simulation
+**Abstract:** This section delves into the behavior of 1000 discrete random walkers on a 2D plane. We first develop a theoretical approach to derive the expected mean position and average distance from the starting point. These theoretical results are then numerically verified using MATLAB simulations, while varying the number of steps to observe their impact on the system's evolution.
+**Key Competencies:** Numerical Simulation, Probability Theory, Stochastic Processes, Data Visualization.
+
+### Exercise 2: Numerical Approximation of an Integral
+**Abstract:** This exercise focuses on the numerical approximation of a specific integral using various quadrature methods. The analysis includes a theoretical derivation of the error, demonstrating its convergence properties (e.g., O(h^2) for certain methods). We also perform numerical tests and visualize the error behavior, highlighting the importance of step size and the influence of boundary conditions, particularly concerning Green's function.
+**Key Competencies:** Numerical Integration, Error Analysis, Mathematical Proof, Data Visualization.
+
+## Files in this Subdirectory
+
+* `src/`: Contains MATLAB scripts for both exercises (e.g., `random_walk_simulation.m`, `integral_approximation.m`).
+* `reports/`: Includes the full `Progetto1 (1).pdf` technical report, detailing methodologies, derivations, results, and discussions.
+* `data/`: (If applicable) Any input data or generated output data files.
+
+## How to Run
+
+1.  Ensure you have MATLAB installed.
+2.  Navigate to the `src/` directory within this sub-repository.
+3.  Run the respective MATLAB scripts (e.g., `run random_walk_simulation.m` or `run integral_approximation.m`) from the MATLAB command window or environment.
+
+## Technologies Utilized
+
+* **MATLAB:** For all numerical implementations and simulations.
+
+## Authors
+
+* **Leonardo Fusar Bassini** - [Link to Leonardo's LinkedIn profile]
+* **Chiara Galimberti** - [Link to Chiara's profile, if available]
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
