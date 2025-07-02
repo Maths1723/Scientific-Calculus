@@ -1,4 +1,4 @@
-# Advanced Academic Projects in Numerical Analysis and Artificial Intelligence
+# Academic Projects in Numerical Analysis and Artificial Intelligence
 
 This repository hosts a collection of six projects developed as part of the **Scientific Computing** course (Mathematical Sciences curriculum) at the **University of Milan (Università degli Studi di Milano Statale)**. These projects were completed in collaboration with a fellow student and were awarded a final grade of **30/30 with honors (cum laude)**, reflecting the depth and correctness of the proposed solutions.
 
