@@ -1,0 +1,40 @@
+# Scientific Computing - Project 2: Convergence of Runge-Kutta Methods and Epidemiological Models
+
+This sub-repository contains the materials for "Paper 2" of the Scientific Computing course at the University of Milan, a project that contributed to our final grade of **30/30 with honors (cum laude)**. This work was completed in collaboration with Chiara Galimberti.
+
+## Project Overview
+
+This paper explores the intricacies of explicit Runge-Kutta methods for solving Ordinary Differential Equations (ODEs) and applies mathematical modeling to epidemiological scenarios.
+
+### Exercise 1: Convergence of Explicit Runge-Kutta Methods in Rapidly Decaying ODE Systems
+**Abstract:** We investigate the advantages and challenges of explicit Runge-Kutta methods, particularly when applied to "stiff" equations. The focus is on a rapidly decaying exponential model (`y'(t) = lambda*y(t)`) to study the instability and non-convergence issues associated with these methods. Our approach combines theoretical analysis with numerical simulations to demonstrate these phenomena.
+**Key Competencies:** Numerical Analysis, Ordinary Differential Equations (ODEs), Runge-Kutta Methods, Stability Analysis.
+
+### Exercise 2: Application to Epidemiological (SIR) Models
+**Abstract:** This section applies numerical methods to a classic Susceptible-Infected-Recovered (SIR) epidemiological model. We analyze how parameters, such as the infection rate and recovery rate, influence the spread and eventual containment of a disease within a population. The work highlights the critical role of immunity (e.g., through vaccination) in preventing unsustainable disease spread and reducing strain on healthcare systems.
+**Key Competencies:** Mathematical Modeling, Epidemiology, Numerical Solutions for Systems of ODEs, Public Health Implications.
+
+## Files in this Subdirectory
+
+* `src/`: Contains MATLAB scripts for both exercises (e.g., `runge_kutta_convergence.m`, `sir_model_simulation.m`).
+* `reports/`: Includes the full `Progetto2 (1).pdf` technical report, detailing methodologies, theoretical discussions, simulation results, and interpretations.
+* `data/`: (If applicable) Any input data or generated output data files.
+
+## How to Run
+
+1.  Ensure you have MATLAB installed.
+2.  Navigate to the `src/` directory within this sub-repository.
+3.  Run the respective MATLAB scripts (e.g., `run runge_kutta_convergence.m` or `run sir_model_simulation.m`) from the MATLAB command window or environment.
+
+## Technologies Utilized
+
+* **MATLAB:** For all numerical implementations and simulations.
+
+## Authors
+
+* **Leonardo Fusar Bassini** 
+* **Chiara Galimberti** 
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
